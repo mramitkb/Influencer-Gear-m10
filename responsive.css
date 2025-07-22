@@ -38,10 +38,21 @@
 
     .sponsors{
         grid-template-columns: repeat(4, 1fr);
-        justify-items: center;  
     }
     .sponsors img{
         width: 100%;
+    }
+
+    .collection{
+        margin: 50px 0;
+    }
+    .collection-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+    .see-more{
+        margin-right: 0;
+        text-align: center;
     }
 }
 
@@ -84,5 +95,27 @@
     }
     .camera img{
         width: 100%;
+    }
+
+    .sponsors img{
+        width: 100%;
+    }
+
+
+    .collection-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        padding: 20px;
+    }
+    .cart{
+        padding: 20px;
+        width: 100%;
+    }
+    .cart img{
+        width: 100%;
+    }
+    .see-more{
+        margin-right: 0;
+        text-align: center;
     }
 }

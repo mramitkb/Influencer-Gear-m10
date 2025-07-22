@@ -1,0 +1,79 @@
+/* Small Devices */
+@media (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .nav-title{
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .nav-container ul, .banner-info, .camera{
+        width: 100%;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        padding: 0 20px;
+    }
+    .banner-info{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .banner-info h1{
+        font-size: 1.75rem;
+    }
+    .banner-info p{
+        font-size: 0.875rem;
+    }
+    .camera{
+        background-size: contain;
+    }
+    .camera img{
+        width: 100%;
+    }
+}
+
+
+/* Laptop Devices */
+@media (min-width: 576px) and (max-width:1024px){
+    header, .nav-container, .banner-container{
+        max-width: 900px;
+        width: 0 auto;
+    }
+    .nav-container{
+        gap: 20px;
+    }
+    .nav-title{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .nav-container ul{
+        width: 100%;
+    }
+    .nav-container a{
+        font-size: .875rem;
+    }
+
+
+    .banner-container{
+        gap: 20px;
+    }
+    .banner-info, .camera{
+        width: 100%;
+    }
+    .banner-info h1{
+        font-size: 1.875rem;
+    }
+    .banner-info p{
+        font-size: .875rem;
+    }
+    .camera{
+        background-size: contain;
+    }
+    .camera img{
+        width: 100%;
+    }
+}

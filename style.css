@@ -160,5 +160,28 @@ h6{
     text-align: end;
     margin-top: 50px;
     cursor: pointer;
-    margin-right: 150px;
+    margin-right: 80px;
+}
+
+
+/* Featured Section */
+.featured-container{
+    max-width: 1440px;
+    margin: 0 auto 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.featured-container img, .featured-info{
+    width: 50%;
+}
+.featured-info h1{
+    font-size: 2.5rem;
+    color: #0A0826;
+    font-weight: 700;
+}
+.featured-container p{
+    color: #6C6C6C;
+    margin: 20px 0;
 }

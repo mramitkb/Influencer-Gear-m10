@@ -34,6 +34,15 @@
     .camera img{
         width: 100%;
     }
+
+
+    .sponsors{
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;  
+    }
+    .sponsors img{
+        width: 100%;
+    }
 }
 
 

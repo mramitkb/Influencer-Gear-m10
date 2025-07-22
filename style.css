@@ -185,3 +185,25 @@ h6{
     color: #6C6C6C;
     margin: 20px 0;
 }
+
+
+/* Footer Section */
+.footer{
+    color: white;
+    background-color: #090A25;
+    padding: 50px;
+    text-align: center;
+}
+.footer h1{
+    font-size: 1.5rem;
+}
+.footer p{
+    margin: 20px 0;
+    color: gray;
+    font-size: 0.75rem;
+}
+.footer-img i{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
